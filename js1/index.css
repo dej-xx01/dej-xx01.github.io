@@ -1,0 +1,62 @@
+@font-face{
+    /*src: url(fonts/RobotoCondensed-Regular.ttf);*/
+    src: url(fonts/Roobert-Regular.otf);
+    font-family: roboto;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(waterfall.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.box{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid brown;*/
+
+}
+
+h1{
+    color: White;
+    font-family: roboto;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#count-el{
+    color: white;
+    font-size: 60px;
+}
+
+button{
+    border:2px solid cornflowerblue;
+    color: white;
+    margin-bottom: 10px;
+    background: transparent;
+}
+#save-btn{
+    padding: 5px 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+#increment-btn{
+    padding: 5px 80px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#save-el{
+    font-size: 20px;
+    color: white;
+    font-family: roboto;
+    
+}
